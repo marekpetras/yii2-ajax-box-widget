@@ -19,6 +19,22 @@ Scroll all the way down to see box reloaded with form data.
 
 ![boxes.png](/sample/boxes.png)
 
+Fully supports grids:
+
+![4grids.png](/sample/4grids.png)
+```php
+<?php
+use marekpetras\yii2ajaxboxwidget\Box;
+?>
+
+<div class="row">
+    <div class="col-sm-12 col-md-6"><?=Box::widget(['title'=>'Users','bodyLoad'=>['/admin/user']])?></div>
+    <div class="col-sm-12 col-md-6"><?=Box::widget(['title'=>'Log','bodyLoad'=>['/admin/log']])?></div>
+    <div class="col-sm-12 col-md-6"><?=Box::widget(['title'=>'Jobs','bodyLoad'=>['/admin/job']])?></div>
+    <div class="col-sm-12 col-md-6"><?=Box::widget(['title'=>'Queue','bodyLoad'=>['/admin/queue']])?></div>
+</div>
+```
+
 Installation
 ------------
 
