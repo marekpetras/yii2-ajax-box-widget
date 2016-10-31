@@ -17,7 +17,7 @@ Buttons are by default rendered with fa icons, I not going to add the dependency
 
 Scroll all the way down to see box reloaded with form data.
 
-![boxes.png]({{site.baseurl}}/sample/boxes.png)
+![boxes.png](/sample/boxes.png)
 
 Installation
 ------------
@@ -145,7 +145,9 @@ class BaseController extends \yii\base\Controller
 Sample
 ------
 
-![boxes.png]({{site.baseurl}}/sample/boxes.png)
+[dashboard.php](/sample/dashboard.php)
+
+![boxes.png](/sample/boxes.png)
 
 ```php
 <?php
