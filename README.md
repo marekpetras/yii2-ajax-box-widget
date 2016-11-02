@@ -64,7 +64,7 @@ Remote:
 ```php
 <?php
 
-echo marekpetras\ajaxbox\Box::widget($options);
+echo marekpetras\yii2ajaxboxwidget\Box::widget($options);
 
 ?>
 ```
@@ -73,7 +73,7 @@ Local:
 ```php
 <?php
 
-$box = marekpetras\ajaxbox\Box::begin($options);
+$box = marekpetras\yii2ajaxboxwidget\Box::begin($options);
 // write body content here
 echo 'Body';
 // add some tools
