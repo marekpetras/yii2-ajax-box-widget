@@ -50,7 +50,7 @@ use yii\helpers\Html;
  *             return \yii\helpers\Html::button('my button');
  *         },
  *     ],
- *     'toolsButtonsOptions' => [
+ *     'toolsButtonOptions' => [
  *         'class' => 'myButtons',
  *     ],
  *     'autoload' => true,
