@@ -71,6 +71,9 @@
 
             return this.source;
         },
+        collapse: function() {
+            return this.element.find('button[data-widget=collapse]').trigger('click');
+        },
         reload: function (data, callback) {
 
             if ( data ) {
