@@ -21,7 +21,7 @@ jQuery.addObject = function(name, object){
             return this;
         }
         if (instance) return instance;
-        this.data(name, new object(this.selector, arg));
+        this.data(name, new object(this, arg));
         return this;
     };
 };
